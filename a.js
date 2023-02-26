@@ -1,2 +1,2 @@
-console.log('dombro')
+console.log('dombro.site')
 console.log('someone')

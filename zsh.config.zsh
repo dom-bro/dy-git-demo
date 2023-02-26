@@ -1,8 +1,7 @@
-alias s='git status'
-alias q='git pull'
-alias Q='git push'
+# git把当前分支合并到目标分支
 
-function mt () {
+# mergeTo test
+function mt(){
   local source=$(current_branch)
   git checkout $1
   git pull
